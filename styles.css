@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body{
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2386bfe5' fill-opacity='0.35'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #63cee6;
+}
+.header-nav-img {
+  width: 15%;
+  max-height: 150px;
+  margin-left: 10px;
+}
+.header-logo {
+  max-width: 100%;
+  max-height: 150px;
+}
+
+.header-nav-item {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
+.item {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #d6e8f3;
+  background-color: #d6e8f3;
+  border-radius: 5px;
+}
+
+.conteiner {
+  display: flex;
+  padding: 30px;
+}
+
+.conteiner-home {
+  background-image: url(imagenes/perros-gatos.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  font-size: 3rem;
+  width: 50%;
+  height: 100vh;
+  text-align: center;
+}
+.conteiner-home h1 {
+  margin: 60px 0;
+  font-family: "Sansita Swashed", cursive;
+}
+.conteiner-descuentos {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  width: 50%;
+  justify-content: center;
+  
+}
+.conteiner-descuentos h3 {
+  text-align: center;
+  font-family: "Sansita Swashed", cursive;
+  font-size: 3rem;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 30px;
+  height: 200px;
+  align-items: center;
+  opacity: 0.8;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.descuento {
+  list-style: none;
+}
+.firts {
+  background-image: url(imagenes/box-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.descuento1 {
+  font-size: 2rem;
+}
+.second {
+  background-image: url(imagenes/consultas.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.third {
+  background-image: url(imagenes/laboratorio.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
